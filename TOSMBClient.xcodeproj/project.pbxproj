@@ -25,6 +25,7 @@
 		012ACADB306CAFF30075BEC8 /* libtasn1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */; };
 		012ACADD306CAFFC0075BEC8 /* libdsm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD2306CAFA00075BEC8 /* libdsm.xcframework */; };
 		012ACAE0306CAFFE0075BEC8 /* libtasn1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */; };
+		012ACAE5306CB2F10075BEC8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ACAE4306CB2F10075BEC8 /* SceneDelegate.m */; };
 		2214DCC21B661CD2003E3EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214DCC11B661CD2003E3EF1 /* main.m */; };
 		2214DCC51B661CD2003E3EF1 /* TOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214DCC41B661CD2003E3EF1 /* TOAppDelegate.m */; };
 		2214DCC81B661CD2003E3EF1 /* TORootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214DCC71B661CD2003E3EF1 /* TORootTableViewController.m */; };
@@ -78,6 +79,8 @@
 /* Begin PBXFileReference section */
 		012ACAD2306CAFA00075BEC8 /* libdsm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libdsm.xcframework; sourceTree = "<group>"; };
 		012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libtasn1.xcframework; sourceTree = "<group>"; };
+		012ACAE3306CB2F10075BEC8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		012ACAE4306CB2F10075BEC8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2214DCBC1B661CD2003E3EF1 /* TOSMBClientExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOSMBClientExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2214DCC01B661CD2003E3EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2214DCC11B661CD2003E3EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 			children = (
 				2214DCC31B661CD2003E3EF1 /* TOAppDelegate.h */,
 				2214DCC41B661CD2003E3EF1 /* TOAppDelegate.m */,
+				012ACAE3306CB2F10075BEC8 /* SceneDelegate.h */,
+				012ACAE4306CB2F10075BEC8 /* SceneDelegate.m */,
 				22CB5AE91B78929B006F05F2 /* TORootViewController.h */,
 				22CB5AEA1B78929B006F05F2 /* TORootViewController.m */,
 				2214DCC61B661CD2003E3EF1 /* TORootTableViewController.h */,
@@ -447,6 +452,7 @@
 				22416F681B7125A3007B8A8B /* TOFilesTableViewController.m in Sources */,
 				2214DCC81B661CD2003E3EF1 /* TORootTableViewController.m in Sources */,
 				2214DCF61B666766003E3EF1 /* TONetBIOSNameService.m in Sources */,
+				012ACAE5306CB2F10075BEC8 /* SceneDelegate.m in Sources */,
 				2214DCC51B661CD2003E3EF1 /* TOAppDelegate.m in Sources */,
 				22301F701B6DED2500326F84 /* TOSMBSessionFile.m in Sources */,
 				E842C6BE1DDA48040017A7AD /* TOSMBSessionTask.m in Sources */,
