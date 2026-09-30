@@ -21,11 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		012ACAD8306CAFF10075BEC8 /* libdsm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD2306CAFA00075BEC8 /* libdsm.xcframework */; };
-		012ACADB306CAFF30075BEC8 /* libtasn1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */; };
-		012ACADD306CAFFC0075BEC8 /* libdsm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD2306CAFA00075BEC8 /* libdsm.xcframework */; };
-		012ACAE0306CAFFE0075BEC8 /* libtasn1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */; };
 		012ACAE5306CB2F10075BEC8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 012ACAE4306CB2F10075BEC8 /* SceneDelegate.m */; };
+		012ACB17306CE5DF0075BEC8 /* libtasn1.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACB15306CE5DF0075BEC8 /* libtasn1.xcframework */; };
+		012ACB19306CE5DF0075BEC8 /* libdsm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012ACB16306CE5DF0075BEC8 /* libdsm.xcframework */; };
 		2214DCC21B661CD2003E3EF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214DCC11B661CD2003E3EF1 /* main.m */; };
 		2214DCC51B661CD2003E3EF1 /* TOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214DCC41B661CD2003E3EF1 /* TOAppDelegate.m */; };
 		2214DCC81B661CD2003E3EF1 /* TORootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2214DCC71B661CD2003E3EF1 /* TORootTableViewController.m */; };
@@ -51,8 +49,6 @@
 		227D6F271CBD4ACA000E8A78 /* TOSMBSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 22236CF71B67C2C700176C34 /* TOSMBSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227D6F281CBD4ACA000E8A78 /* TOSMBSessionFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 22301F6E1B6DED2500326F84 /* TOSMBSessionFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		227D6F291CBD4ACA000E8A78 /* TOSMBSessionDownloadTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AE8B861B6F66E4008412CF /* TOSMBSessionDownloadTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227D6F3D1CBD4B7C000E8A78 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 227D6F3C1CBD4B7C000E8A78 /* libiconv.tbd */; };
-		227D6F3E1CBD4BE1000E8A78 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 227D6F3C1CBD4B7C000E8A78 /* libiconv.tbd */; };
 		227D6F4C1CBD4EF4000E8A78 /* TOSMBClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 22416F691B712BE7007B8A8B /* TOSMBClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22AE8B881B6F66E4008412CF /* TOSMBSessionDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AE8B871B6F66E4008412CF /* TOSMBSessionDownloadTask.m */; };
 		22CB5AEB1B78929B006F05F2 /* TORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CB5AEA1B78929B006F05F2 /* TORootViewController.m */; };
@@ -77,10 +73,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		012ACAD2306CAFA00075BEC8 /* libdsm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libdsm.xcframework; sourceTree = "<group>"; };
-		012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libtasn1.xcframework; sourceTree = "<group>"; };
 		012ACAE3306CB2F10075BEC8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		012ACAE4306CB2F10075BEC8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		012ACB15306CE5DF0075BEC8 /* libtasn1.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libtasn1.xcframework; path = Frameworks/libtasn1.xcframework; sourceTree = "<group>"; };
+		012ACB16306CE5DF0075BEC8 /* libdsm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libdsm.xcframework; path = Frameworks/libdsm.xcframework; sourceTree = "<group>"; };
 		2214DCBC1B661CD2003E3EF1 /* TOSMBClientExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOSMBClientExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2214DCC01B661CD2003E3EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2214DCC11B661CD2003E3EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -109,7 +105,6 @@
 		22416F691B712BE7007B8A8B /* TOSMBClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TOSMBClient.h; sourceTree = "<group>"; };
 		227D6F1C1CBD49FE000E8A78 /* TOSMBClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOSMBClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		227D6F201CBD49FE000E8A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		227D6F3C1CBD4B7C000E8A78 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		22AE8B861B6F66E4008412CF /* TOSMBSessionDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOSMBSessionDownloadTask.h; sourceTree = "<group>"; };
 		22AE8B871B6F66E4008412CF /* TOSMBSessionDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOSMBSessionDownloadTask.m; sourceTree = "<group>"; };
 		22CB5AE91B78929B006F05F2 /* TORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TORootViewController.h; sourceTree = "<group>"; };
@@ -131,9 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227D6F3E1CBD4BE1000E8A78 /* libiconv.tbd in Frameworks */,
-				012ACADB306CAFF30075BEC8 /* libtasn1.xcframework in Frameworks */,
-				012ACAD8306CAFF10075BEC8 /* libdsm.xcframework in Frameworks */,
+				012ACB19306CE5DF0075BEC8 /* libdsm.xcframework in Frameworks */,
+				012ACB17306CE5DF0075BEC8 /* libtasn1.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,15 +142,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227D6F3D1CBD4B7C000E8A78 /* libiconv.tbd in Frameworks */,
-				012ACAE0306CAFFE0075BEC8 /* libtasn1.xcframework in Frameworks */,
-				012ACADD306CAFFC0075BEC8 /* libdsm.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012ACB14306CE5DF0075BEC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				012ACB16306CE5DF0075BEC8 /* libdsm.xcframework */,
+				012ACB15306CE5DF0075BEC8 /* libtasn1.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2214DCB31B661CD2003E3EF1 = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +164,7 @@
 				2214DCBE1B661CD2003E3EF1 /* TOSMBClientExample */,
 				2214DCD81B661CD2003E3EF1 /* TOSMBClientExampleTests */,
 				227D6F1D1CBD49FE000E8A78 /* TOSMBClientFramework */,
+				012ACB14306CE5DF0075BEC8 /* Frameworks */,
 				2214DCBD1B661CD2003E3EF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -228,7 +229,6 @@
 		2214DCE51B662632003E3EF1 /* TOSMBClient */ = {
 			isa = PBXGroup;
 			children = (
-				2214DCE61B662632003E3EF1 /* libdsm */,
 				22416F691B712BE7007B8A8B /* TOSMBClient.h */,
 				2214DCFA1B66847B003E3EF1 /* TOSMBConstants.h */,
 				2214DCFB1B66847B003E3EF1 /* TOSMBConstants.m */,
@@ -254,16 +254,6 @@
 				E82FE0351DD930DA008E82FA /* TOSMBSessionUploadTaskPrivate.h */,
 			);
 			path = TOSMBClient;
-			sourceTree = "<group>";
-		};
-		2214DCE61B662632003E3EF1 /* libdsm */ = {
-			isa = PBXGroup;
-			children = (
-				012ACAD2306CAFA00075BEC8 /* libdsm.xcframework */,
-				012ACAD3306CAFA00075BEC8 /* libtasn1.xcframework */,
-				227D6F3C1CBD4B7C000E8A78 /* libiconv.tbd */,
-			);
-			path = libdsm;
 			sourceTree = "<group>";
 		};
 		227D6F1D1CBD49FE000E8A78 /* TOSMBClientFramework */ = {
